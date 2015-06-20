@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <title>My Receipies</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= render 'layouts/nav' %>
+<%= render 'layouts/nav2' %> 
+
 
 <div class="container">
 
 <%= yield %>
 
+ <%= render 'layouts/footer' %>
+
 </div>
+
+
 
 </body>
 </html>
